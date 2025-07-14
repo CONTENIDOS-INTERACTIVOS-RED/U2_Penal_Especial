@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde una perspectiva jurídica y humanitaria, la vida se reconoce como el bien jurídico fundamental que sustenta todos los demás derechos. En esta unidad introductoria, se abordarán las diferentes formas de afectación penal contra la vida humana, desde el homicidio en sus diferentes modalidades, hasta delitos especialmente complejos como el feminicidio, el genocidio, la desaparición forzada y otras figuras punibles como el aborto, las lesiones personales, la manipulación genética y la inducción al suicidio.
+              p.descripcion.mb-4 La protección del patrimonio económico es un pilar fundamental del Derecho Penal, al resguardar los bienes que permiten el desarrollo individual y colectivo. En esta unidad, se analizarán los delitos que afectan directa e indirectamente la propiedad y la posesión de bienes, tales como el hurto, la estafa, el fraude mediante cheque, el abuso de confianza, la usurpación, la extorsión y el daño en bien ajeno. El objetivo es que el estudiante adquiera criterios jurídicos para identificar, diferenciar y valorar estas conductas punibles, interpretando su configuración legal, su complejidad probatoria y sus implicaciones sociales y éticas.
               
-              p #[b ¡Prepárese para afrontar los retos del estudio del Derecho Penal con análisis crítico, compromiso ético y rigurosidad académica!]
+              p #[b ¡Prepárese para fortalecer sus competencias jurídicas, con base en el análisis penal especializado!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
